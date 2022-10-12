@@ -1,0 +1,5 @@
+package liskovsubstitution;
+
+public class FlightlessBird {
+	 public abstract void flap();
+}

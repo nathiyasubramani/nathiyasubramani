@@ -1,0 +1,5 @@
+package liskovsubstitution;
+
+public class Penguin {
+
+}

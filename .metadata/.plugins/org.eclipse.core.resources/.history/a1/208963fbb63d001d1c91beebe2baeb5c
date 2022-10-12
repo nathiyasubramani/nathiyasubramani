@@ -1,0 +1,15 @@
+package Test;
+
+public class Test {
+	public static void main(String[] args) {
+		Customers cus=new Customers();
+		cus.show();
+		
+		Products prod=new Products();
+		prod.showProduct();
+		
+		Payments Paym=new Payments();
+		paym.showPayment();
+	}
+
+}

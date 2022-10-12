@@ -1,0 +1,24 @@
+package enumex;
+
+public enum OrderStatus {
+	
+	PENDING("Single tick"),
+	COMPLETED("single tick"),
+	REJECTED("single tick"),
+	DELIVERED("Double tick"),
+	FEEDBACKCOLLECTED("This msg is deleted");
+	
+	String des;
+	
+	private OrderStatus(String m)
+	{
+		des =m;
+	}
+	
+	public String getMsg()
+	{
+		return des;
+	}
+
+
+}

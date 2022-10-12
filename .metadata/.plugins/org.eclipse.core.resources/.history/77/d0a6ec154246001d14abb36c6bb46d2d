@@ -1,0 +1,15 @@
+package Interface_segregation;
+
+import Interface_segregation.Dodo;
+import Interface_segregation.Dodo1;
+import Interface_segregation.Falcon;
+import Interface_segregation.Falcon1;
+
+public class Test {
+	public static void main(String[] args) {
+		Dodo do=new Dodo();
+		Dodo1 do=new Dodo1();
+		Falcon fa=new Falcon();
+		fa.learnToFly(owl);;		
+	}
+}

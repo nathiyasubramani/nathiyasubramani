@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;enumex.MsgStatus&apos; to &apos;OrderStatus&apos;&#x0D;&#x0A;- Original project: &apos;Exercises&apos;&#x0D;&#x0A;- Original element: &apos;enumex.MsgStatus&apos;&#x0D;&#x0A;- Renamed element: &apos;enumex.OrderStatus&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MsgStatus&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;enumex{MsgStatus.java[MsgStatus" matchStrategy="1" name="OrderStatus" qualified="false" references="true" similarDeclarations="false" stamp="1665405530572" textual="false" version="1.0"/>
+</session>

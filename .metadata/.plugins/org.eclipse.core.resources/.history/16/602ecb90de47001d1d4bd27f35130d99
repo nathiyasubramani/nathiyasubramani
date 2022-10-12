@@ -1,0 +1,41 @@
+package Customer;
+
+public class Customers 
+{
+	
+	public String userName;
+	public String password;
+	public String email;
+	public long phone;
+	public String address;
+	
+	public void editProfile() 
+	{
+		System.out.println("from edit Profile ");
+	}
+	
+	public void changePassword()
+	{
+		System.out.println("from change password ");
+	}
+	
+	public void checkOrderStatus()
+	{
+		System.out.println("from check Order status ");
+	}
+	
+	public void returnAndRefund()
+	{
+		System.out.println("from return and refund ");
+	}
+	
+	public void placeOrCancelOrder()
+	{
+		System.out.println("from place or cancel order ");
+	}
+	
+	public void login()
+	{
+		System.out.println("from login ");
+	}
+}

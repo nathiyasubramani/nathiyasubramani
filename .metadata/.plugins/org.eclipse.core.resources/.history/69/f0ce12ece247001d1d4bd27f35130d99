@@ -1,0 +1,69 @@
+package Test;
+
+import java.util.Scanner;
+
+import Customer.Customer;
+import Customer.Customers;
+import Payment.Payment;
+import Product.Product;
+
+public class Test 
+{
+	public static void main(String[] args) 
+	{
+		
+		Customers cust1 = new Customers();
+		cust1.username="JigishKumar";
+		cust1.password="1234jigi";
+		cust1.email="jigi@gmail.com";
+		cust1.phone=345678;
+		cust1.address="London";
+		cust1.changePassword();
+
+		Customers cust2 = new Customers();
+		cust2.username="Hilda";
+		cust2.password="1234hilda";
+		cust2.email="hilda@gmail.com";
+		cust2.phone=34567866;
+		cust2.address="New York";
+		
+		
+		Customers cust3 = new Customers();
+		cust3.username="Nathiya";
+		cust3.password="1234Nathiya";
+		cust3.email="Nathiya@gmail.com";
+		cust3.phone=375466466;
+		cust3.address="Swizerland";
+		
+		Customers cust4=new Customers();
+		Scanner scn=new Scanner(System.in);
+		
+		System.out.println("Enter username ");
+		cust4.username=scn.nextLine();
+		
+		System.out.println("Enter password ");
+		cust4.password=scn.nextLine();
+		
+	    System.out.println("Enter email ");
+		cust4.email=scn.nextLine();
+				
+		System.out.println("Enter phone ");
+		cust4.phone=scn.nextLong();
+		
+		System.out.println("Enter address ");
+		cust4.address=scn.nextLine();
+		
+		Customers cus=new Customers();
+		cus.editProfile();
+		cus.changePassword();
+		cus.checkOrderStatus();
+		cus.returnAndRefund();
+		cus.placeOrCancelOrder();
+		cus.login();
+		
+		Product prod=new Product();
+		prod.getProductDetails();
+		prod.DisplayProductInfo();		
+	}
+
+}

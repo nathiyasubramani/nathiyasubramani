@@ -1,0 +1,39 @@
+package calculator;
+
+import java.util.Scanner;
+
+public class Test {
+	
+	public static void main(String[] args)
+	{
+	
+        Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Please enter your first number : ");
+		int x=sc.nextInt();
+
+		System.out.println("Please enter your second number : ");
+		int y=sc.nextInt();
+		
+		System.out.println(Add(x,y));
+		
+		/*public  int Minus(x,y)
+		{
+			System.out.println("multiplication of two numbers is : ");
+		}
+		
+		public int Subtract(x,y)
+		{
+			System.out.println("addition of two numbers is : ");
+		}
+		
+		public int div(x,y)
+		{
+			System.out.println("division of two numbers is : ");
+		}*/
+		
+		
+	}
+
+	
+}

@@ -1,0 +1,33 @@
+//package com;
+//
+//public class TestCustomer {
+//	@Test  // check if FindBig() method returns right results
+//    public void runFindBig() {
+//        //assertequals check if first argument is equal to 2nd args
+//        assertEquals(500,Calculator.findBig(500, 200));
+//    }
+//    
+//    @Test  // check if FindBig() method returns right results
+//    public void runFindSmall() {
+//        //assertequals check if first argument is equal to 2nd args
+//        assertEquals(10,Calculator.findSmall(10, 20));
+//    }
+//}
+package com;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import unit.Calculator;
+
+public class TestCustomer {
+	@Test  // check if FindBig() method returns right results
+	public void runFindBiggest() {
+		//assertequals check if first argument is equal to 2nd args
+		assertEquals(26,Calculator.findBiggest(10,20,15));
+	}
+	
+	
+
+}
