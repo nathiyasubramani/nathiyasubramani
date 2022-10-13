@@ -15,5 +15,4 @@
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="jdbc.TestJdbc"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="MyfirstMaven"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="MyfirstMaven"/>
-    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
 </launchConfiguration>

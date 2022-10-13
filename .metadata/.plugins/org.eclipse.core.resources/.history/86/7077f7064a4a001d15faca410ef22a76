@@ -1,0 +1,12 @@
+package Dependency_Inversion;
+
+public class Test {
+	public static void main(String[] args)
+	{
+		WeatherTracker W=new WeatherTracker();
+		Phone p=new Phone();
+		W.alertWeatherConditions(null);
+		
+	}
+
+}
