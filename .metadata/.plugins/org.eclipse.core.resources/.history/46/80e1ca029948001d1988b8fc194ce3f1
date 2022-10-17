@@ -1,5 +1,0 @@
-package enumex;
-
-public enum OrderStatus {
-
-}

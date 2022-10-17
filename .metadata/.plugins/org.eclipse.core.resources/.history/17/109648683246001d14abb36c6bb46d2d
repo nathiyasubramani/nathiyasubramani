@@ -1,5 +1,0 @@
-package Dependency_Inversion;
-
-public class WeatherTracker {
-
-}
